@@ -42,7 +42,7 @@ paths:
   /pets/feed:
     get:
       summary: Feed Pets
-      operationId: listPets
+      operationId: feedPets
       tags:
         - pets
       parameters:
