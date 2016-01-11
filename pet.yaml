@@ -98,10 +98,10 @@ paths:
           description: unexpected error
           schema:
             $ref: Error
-  /pets/pet:
+  /pets/vaccinate:
     get:
-      summary: PetPets
-      operationId: PetPets
+      summary: vaccinatePet
+      operationId: vaccinatePet
       tags:
         - pets
       parameters:
